@@ -1,0 +1,150 @@
+
+
+.tela {
+
+        background-color: white;
+        color: black;
+        width: 600px;
+        height: 350px;
+        margin: 70px 0 0 340px;
+        padding-top: 60px;
+        text-align: center;
+        border-radius: 20px;
+        font-size: 30px;
+        
+    }
+
+.tela input{
+    display: block;
+    margin: 5px 10px 10px 15px;
+    width: 93% ; 
+    padding: 5px; 
+    font-size: 20px;
+    color: black;
+
+}
+.label{
+    display: block;
+    padding: 10px 10px 5px 15px;
+    font-size: 30px;
+    color: black;
+}
+.tela button{
+    display: block;
+    margin: 30px 0 0 20px;
+    font-family: 25px;
+}
+
+
+        *{
+            margin:0;
+            padding: 0;
+        }
+        .menu{
+            width: 100%;
+            height: 50px;
+            background-color: #222;
+            font-family:'Arial';
+            z-index: 99;
+        }
+         .menu ul{
+            list-style: none;
+            position: relative;
+        }
+        .menu ul li{
+            width: 150px;
+            float: left;
+        }
+        .menu a{
+            z-index: 10;
+            padding: 15px;
+            display: block;
+            text-decoration: none;
+            text-align: center;
+            background-color: #222;
+            color: #fff;
+        }
+        .menu ul ul {
+            z-index: 999;
+            position: absolute;
+            visibility: hidden;
+
+        }
+        .menu ul li:hover ul{
+            visibility: visible;
+        }
+        .menu a:hover{
+            background-color: #f4f4f4;
+            color: #555;
+        }
+        .menu ul ul li{
+            float:none;
+            border-bottom: solid 1px #ccc;
+        }
+        .menu ul ul li a{
+            background-color: #069;
+        }
+
+
+        label[for="bt-menu"]{
+            padding: 5px;
+            background-color: #222;
+            color: #fff;
+            font-family: 'Arial';
+            text-align: center;
+            font-size: 30px;
+            cursor: pointer;
+            width: 50px;
+            height: 50px;
+        }
+
+        #bt-menu{
+            display: none;
+            
+        }
+
+        label[for="bt-menu"]{
+            display: none;
+        }
+
+
+        @media(max-width: 800px){
+
+            label[for="bt-menu"]{
+                display: block;
+             }
+
+            #bt-menu:checked ~ .menu{
+                margin-left: 0;
+            }
+
+            .menu{
+
+                margin-top:5px; 
+                margin-left:-100%;
+                transition:all .4s;
+                z-index: 999;
+                position: absolute;
+               
+            }
+            .menu ul li{
+                width: 100%;
+                float: none;
+              
+            }
+            .menu ul ul{
+                position: absolute;
+                visibility: hidden;
+                max-height: 0;
+
+                
+            }
+            .menu ul li:hover li{
+                height: auto;
+                max-height: 200px; 
+
+            }
+
+    
+        }
+
