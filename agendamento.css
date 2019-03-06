@@ -1,0 +1,163 @@
+
+* {
+    padding: 0;
+    margin: 0;
+    height: auto;
+}
+
+
+.main-header {
+    width: 100%;
+    height: auto;
+    background: orange;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+}
+
+
+.title-header {
+    color: white;
+    font-size: 30px;
+}
+
+.main {
+    margin-top:10px;
+    height: auto;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+}
+
+.input-agendamento {
+    width: 100%;
+    height: 100%;
+    color: white;
+    border: none;
+    background: none;
+    padding: 10px;
+
+}
+
+.espaco {
+    width: 400px;
+    height: auto;
+}
+
+
+.espaco img {
+    width: 100%;
+    height: 400px;
+}
+
+.espaco .title-espaco {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 46px;
+    color: white;
+    background: orange;
+    text-transform:uppercase;
+    font-weight:bold;
+}
+
+
+
+.table-agendamento {
+    width: auto;
+    height: auto;
+}
+
+.table-agendamento td,
+th {
+    text-align: center;
+}
+
+
+
+th,
+tr {
+    background: orange;
+    color: white;
+    height: 40px;
+    width: auto;
+    
+}
+td{
+   height: 30px;
+   padding:5px;
+}
+
+
+.agendado{
+    background:gray;
+}
+
+
+
+td a {
+    text-decoration:none;
+    color:white;
+    padding:10px;
+}
+
+
+.main-footer {
+    width: 100%;
+    height: 100px;
+    background: orange;
+    margin-top: 10px;
+}
+
+a{
+    text-decoration:none;
+    color:white;
+}
+
+
+
+
+.info-usser {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top:15px;
+    margin-bottom: 10px;
+    
+}
+.info-usser label{
+    color: white;
+    text-transform: uppercase;
+}
+.info-usser img {
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    margin-bottom:5px;
+  
+}
+
+.info-usser button {
+    margin-top:5px;
+    background: red;
+    color: white;
+    border: none;
+    width: 100px;
+    padding: 9px;
+    border-radius: 15px;
+
+}
+
+.main-usser{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
