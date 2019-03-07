@@ -1,25 +1,38 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" type="text/css" href="css/styles.css">
-    <title>Document</title>
-</head>
 
-<body>
-    <input type="checkbox" id="bt-menu"> 
-    <label for="bt-menu">&#9776;</label>
+ <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title> Locação de Equipamentos </title>
+        <meta name="description" content="Site especializado em reservar equipamentos escolares">
+        <meta name="keywords" content="Reservas">
+        <meta name="robots" content="index, follow">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+       
+        <link href='https://fonts.googleapis.com/css?family=Lato:400,300,700' rel='stylesheet' type='text/css'>
+        <link rel="icon" href="img/icon.png">
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+    </head>
+    <body>
+    
+        <header class="cabecalho container">
+           <a href="home.php"><h1 class="logo"> Locação de equipamentos - Especializada em reservas de equipamentos escolares </h1></a>
+           <button class="btn-menu bg-gradient"><i class="fa fa-bars fa-lg"></i></button>
+           <nav class="menu">
+               <a class="btn-close"><i class="fa fa-times"></i></a>
+               <ul>
+                   <li><a href="home.php">Home</a></li>
+                   <li><a href="login.php">Login</a></li>
+                   <li><a href="quem.php">Quem somos</a></li>
+                   
+                  
+               </ul>
+           </nav>          
+        </header>
 
-    <nav class="menu">
-        <ul>
-            <li><a href="home.php">Home</a></li>
-            <li><a href="Login.php">Login</a></li>
-            
-        </ul>
-    </nav>
+
     <header>
         <div class="main-header">
             <div class="title-header">
@@ -198,4 +211,16 @@
         height: 100px;
         background: orange;
     }
+
 </style>
+
+   <!-- JQUERY --> 
+        <script src="http://code.jquery.com/jquery-1.12.0.min.js"></script>
+        <script>
+        $(".btn-menu").click(function(){
+          $(".menu").show();
+        });
+        $(".btn-close").click(function(){
+          $(".menu").hide();
+        });
+        </script> 
