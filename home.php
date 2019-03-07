@@ -14,7 +14,7 @@
     </head>
     <body>
          
-        <header class="cabecalho container">s
+        <header class="cabecalho container">
            <a href="home.php"><h1 class="logo"><img src="images/2.png" style="margin-top: -55px;"> Locação de equipamentos - Especializada em reservas de equipamentos escolares </h1></a>
            <button class="btn-menu bg-gradient"><i class="fa fa-bars fa-lg"></i></button>
            <nav class="menu">

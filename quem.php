@@ -55,8 +55,8 @@
             <div class="imgBox">
                
             </div>
-            <P>O sistema foi fundada no ano de 2019 na cidade São Miguel pelo Tecnicos em Informatica e sua principal missão é oferecer aos professores da instituição uma melhor qualidade em reservas.</p>
-            <h4>testes para o nome<br><span>teste para o nome</span></h4>
+            <P>O sistema foi fundado no ano de 2019 na cidade São Miguel pelos Técnicos em Informática e sua principal missão é oferecer aos professores da instituição uma melhor forma para reservas.</p>
+            <h4>Como tudo começou<br><span>Finalidade</span></h4>
         </div>
 
         <div class="box">
@@ -67,7 +67,7 @@
                Contato: 3353-8978<br>
                End.: Rua 13 de maio<br>
                Numero: 21<br></p>
-            <h4>testes para o nome<br><span>teste para o nome</span></h4>
+            <h4>Contatos<br><span>Informações necessarias</span></h4>
         </div>
     </div>
 
